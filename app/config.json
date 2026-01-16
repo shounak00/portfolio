@@ -1,18 +1,11 @@
 {
-  "name": "MD. Asafuddaula Sobahani Shounak",
-  "role": "Senior Unity Developer & Team Lead",
-  "disciplines": [
-    "Unity Developer",
-    "XR Engineer (VR/AR)",
-    "Simulation Systems Architect",
-    "ECS / DOTS Specialist",
-    "Tooling & Workflow Automation"
-  ],
-  "url": "https://shounak00.github.io/ShounakUnity",
-  "bluesky": "shounak00.github.io",
-  "figma": "@shounak00",
-  "github": "shounak00",
-  "repo": "https://github.com/shounak00/ShounakUnity",
-  "ascii": " ____  _   _  ___   _   _  _   _   _   __\n/ ___|| | | |/ _ \\ | | | || \\ | | | | / /\n\\___ \\| |_| | | | || | | ||  \\| | | |/ / \n ___) |  _  | |_| || |_| || |\\  | |   <  \n|____/|_| |_|\\___/  \\___/ |_| \\_| |_|\\_\\"
-
+  "name": "Hamish Williams",
+  "role": "Designer",
+  "disciplines": ["Developer", "Prototyper", "Animator", "Illustrator", "Modder"],
+  "url": "https://hamishw.com",
+  "bluesky": "hamishw.com",
+  "figma": "@Hamish",
+  "github": "HamishMW",
+  "repo": "https://github.com/HamishMW/portfolio",
+  "ascii": "__  __  __\n\u005C \u005C \u005C \u005C \u005C\u2215\n \u005C \u005C\u2215\u005C \u005C\n  \u005C\u2215  \u005C\u2215\n"
 }

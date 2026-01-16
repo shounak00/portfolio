@@ -99,73 +99,75 @@ export const Home = () => {
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <ProjectSummary
-  id="project-1"
-  sectionRef={projectOne}
-  visible={visibleSections.includes(projectOne.current)}
-  index={1}
-  title="SIT CPREP — Clinical Preparedness Medical Simulation"
-  description="Real-world medical simulation scenarios for radiographers and physiotherapists. Built ECS-inspired systems for scenario flow, assessment, and state management, plus authoring & workflow automation tools for rapid content creation. Integrated LMS + Learning Record Store (xAPI) for analytics-driven training."
-  buttonText="View project"
-  buttonLink="/projects/sit-cprep"
-  model={{
-    type: 'laptop',
-    alt: 'SIT CPREP simulation authoring and assessment workflow',
-    textures: [
-      {
-        srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
-        placeholder: sprTexturePlaceholder,
-      },
-    ],
-  }}
-/>
-
-<ProjectSummary
-  id="project-2"
-  alternate
-  sectionRef={projectTwo}
-  visible={visibleSections.includes(projectTwo.current)}
-  index={2}
-  title="JLG Crane — VR Digital Twin Training"
-  description="VR-based digital twin enabling real-time crane operation and training. Implemented system-driven simulation logic for interaction, physics coordination, and safety validation, with performance-focused architecture for reliable training workflows."
-  buttonText="View project"
-  buttonLink="/projects/jlg-crane-digital-twin"
-  model={{
-    type: 'phone',
-    alt: 'JLG Crane VR digital twin interaction and telemetry views',
-    textures: [
-      {
-        srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
-        placeholder: gamestackTexturePlaceholder,
-      },
-      {
-        srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
-        placeholder: gamestackTexture2Placeholder,
-      },
-    ],
-  }}
-/>
-
-<ProjectSummary
-  id="project-3"
-  sectionRef={projectThree}
-  visible={visibleSections.includes(projectThree.current)}
-  index={3}
-  title="Bus Simulator BD — 2M+ Downloads"
-  description="Large-scale Android driving simulation with 2M+ downloads. Optimized vehicle physics and rendering for low-end devices, contributed to scalable gameplay systems, and improved long-term performance stability for live product growth."
-  buttonText="View project"
-  buttonLink="/projects/bus-simulator-bd"
-  model={{
-    type: 'laptop',
-    alt: 'Bus Simulator BD gameplay and performance optimization showcase',
-    textures: [
-      {
-        srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
-        placeholder: sliceTexturePlaceholder,
-      },
-    ],
-  }}
-/>
-
+        id="project-1"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="Designing the future of education"
+        description="Designing a platform to help educators build better online courseware"
+        buttonText="View project"
+        buttonLink="/projects/smart-sparrow"
+        model={{
+          type: 'laptop',
+          alt: 'Smart Sparrow lesson builder',
+          textures: [
+            {
+              srcSet: `${sprTexture} 1280w, ${sprTextureLarge} 2560w`,
+              placeholder: sprTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-2"
+        alternate
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={2}
+        title="Video game progress tracking"
+        description="Design and development for a video game tracking app built in React Native"
+        buttonText="View website"
+        buttonLink="https://gamestack.hamishw.com"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              srcSet: `${gamestackTexture} 375w, ${gamestackTextureLarge} 750w`,
+              placeholder: gamestackTexturePlaceholder,
+            },
+            {
+              srcSet: `${gamestackTexture2} 375w, ${gamestackTexture2Large} 750w`,
+              placeholder: gamestackTexture2Placeholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="Biomedical image collaboration"
+        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        buttonText="View project"
+        buttonLink="/projects/slice"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: `${sliceTexture} 800w, ${sliceTextureLarge} 1920w`,
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <Profile
+        sectionRef={details}
+        visible={visibleSections.includes(details.current)}
+        id="details"
+      />
       <Footer />
     </div>
   );
